@@ -20,7 +20,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "heroku": "^7.54.1",
-    "http": "*",
+    
     "material-ui-image": "^3.3.2",
     "mongoose": "^5.12.14",
     "nodemon": "^2.0.7",
