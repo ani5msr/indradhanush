@@ -1,0 +1,67 @@
+/*.App{
+  max-width: 1200px;
+  margin: auto;
+}
+*/
+
+/* All the hover state goes here*/
+div.link:hover{
+    border-bottom: 5px solid red;
+  }
+
+li.secondary-nav:hover{
+    background: #dee5ec; 
+    color: black !important; 
+    font-weight: bold !important; 
+  }
+
+
+
+
+
+/* All the media queries go here*/
+  @media only screen and (max-width: 600px) {
+
+
+    nav {
+        flex-direction: row;
+    }
+
+    
+    div.logo{
+      display: none;
+      
+    }
+
+
+    div.link{
+      margin-top: 10px;
+    }
+
+
+    form.search{
+      display: none;
+    }
+
+    ul.navlink{
+      flex-direction: column; 
+      margin-top: 60px;
+    }
+
+    section.documentlinks-section{
+      flex-direction: column;
+      text-align: center; 
+    }
+
+  }
+
+
+
+
+/* Some fixes go here*/
+  form{
+    padding-bottom: 10px; 
+  }
+
+
+
