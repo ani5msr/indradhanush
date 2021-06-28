@@ -99,7 +99,7 @@ export default function SecondaryNav() {
                 
       </TabPanel>
             <TabPanel value={value} index={2}>
-               
+               <Tab3 />
       </TabPanel>
             <TabPanel value={value} index={3}>
                 <Tab2 />
