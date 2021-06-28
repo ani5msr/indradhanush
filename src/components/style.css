@@ -7,9 +7,42 @@
     margin-right: 8px;
     margin-top: 30px;
 }
+.millet{
+    background-image: url("../Data/images/mft.jpg");
+    background-repeat: no-repeat;
+}
+.millettext{
+    font-family: Gabriola;
+    font-size: larger;
+    font-weight: 700;
+}.millettext2{
+    font-family: Gabriola;
+    font-size: larger;
+    font-weight: 700;
+    color: burlywood;
+}
 .tab {
     font-family: Garamond;
 }
+.millethead{
+    font-family: 'Harlow Solid';
+        color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bolder;
+    
+    
+}.milletpara{
+    font-family: Cambria;
+    color: darkslategrey;
+}
+ .milletpara2{
+     font-family: 'Copperplate Gothic';
+
+ }
+ .why {
+     font-family: Arial;
+     color: darkorange;
+ }
 .tab1 {
     line-height: 200%;
     font-family: Corbel;
