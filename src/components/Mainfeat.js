@@ -11,13 +11,13 @@ import Fade from 'react-reveal/Fade';
 import green from '@material-ui/core/colors/green';
 import lime from '@material-ui/core/colors/lime';
 import brown from '@material-ui/core/colors/brown';
-import why2 from "../Data/images/why2.jpg"
-import why3 from "../Data/images/why3.jpg"
-import why4 from "../Data/images/why4.jpg"
-import why6 from "../Data/images/why6.jpg"
+import why2 from "../Data/images/why2.jpg";
+import why3 from "../Data/images/why3.jpg";
+import why4 from "../Data/images/why4.jpg";
+import why6 from "../Data/images/why6.jpg";
 
-import indi from "../Data/images/indi.jpg"
-import why5 from "../Data/images/why5.png"
+import indi from "../Data/images/indi.jpg";
+import why5 from "../Data/images/why5.png";
 import styles from './imagesStyles.js';
 const color2 = lime[100];
 const color3 = brown[100];
