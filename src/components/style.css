@@ -35,6 +35,34 @@
     font-family: Cambria;
     color: darkslategrey;
 }
+.work{
+    font-family: 'Footlight MT';
+        color: firebrick;
+      
+}.work2{
+    font-family: 'Footlight MT';
+      
+      
+}.workhead{
+    font-family: 'Footlight MT';
+        color: firebrick;
+        text-decoration: underline;
+      
+}.workhead2{
+    font-family: 'Footlight MT';
+       
+        text-decoration: underline;
+      
+}
+.nav_item_wrap {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 15px;
+}
+.nav_title {
+    display: inline-block;
+    vertical-align: bottom;
+}
  .milletpara2{
      font-family: 'Copperplate Gothic';
 

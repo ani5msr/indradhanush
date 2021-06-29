@@ -11,13 +11,13 @@ import Fade from 'react-reveal/Fade';
 import green from '@material-ui/core/colors/green';
 import lime from '@material-ui/core/colors/lime';
 import brown from '@material-ui/core/colors/brown';
-import why2 from "../Data/images/why2.jpg";
-import why3 from "../Data/images/why3.jpg";
-import why4 from "../Data/images/why4.jpg";
-import why6 from "../Data/images/why6.jpg";
+import why2 from "../Data/images/why2.jpg"
+import why3 from "../Data/images/why3.jpg"
+import why4 from "../Data/images/why4.jpg"
+import why6 from "../Data/images/why6.jpg"
 
-import indi from "../Data/images/indi.jpg";
-import why5 from "../Data/images/why5.png";
+import indi from "../Data/images/indi.jpg"
+import why5 from "../Data/images/why5.png"
 import styles from './imagesStyles.js';
 const color2 = lime[100];
 const color3 = brown[100];
@@ -95,7 +95,7 @@ export default function MainFeat(props) {
 
             </Fade>
             <Fade  big>
-                <Paper>
+                <Paper style={{ backgroundColor: color2 }}>
                     <Typography align="left" component="h2" variant="h3" gutterBottom>
                         <span className="millethead">Why Millets</span></Typography>
                 </Paper>
@@ -184,14 +184,14 @@ export default function MainFeat(props) {
                 <div>
                     <Paper style={{ backgroundColor: color2 }} elevation={5}><h1 className="why">* Millets have untapped demands with multiple uses and low awareness </h1>
                         <h2 className="milletpara"> Millets can be used as human food,fodder, biofuel and brewing</h2></Paper></div>
-            </Fade>
-            <Paper>
+            
+            <Paper style={{ backgroundColor: color2 }}>
                 <Typography align="left" component="h2" variant="h3" gutterBottom>
                     <span className="millethead">How are millets changing the world</span></Typography>
             </Paper>
             
                 <div>
-                <Paper>  <h2 className="milletpara"> Millets are tackling some of the world's biggest problems in unison</h2>
+                <Paper style={{ backgroundColor: color2 }}>  <h2 className="milletpara"> Millets are tackling some of the world's biggest problems in unison</h2>
                     <p className="milletpara2" > Poor Diet and health</p>
                     <p className="milletpara2"> Environment issues</p>
                     <p className="milletpara2"> Rural poverty</p></Paper>
@@ -207,8 +207,9 @@ export default function MainFeat(props) {
                     }
                 />
 
-
                 </div>
+
+            </Fade>
            
         </Paper>
         
