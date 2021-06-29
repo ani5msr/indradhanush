@@ -17,7 +17,7 @@ import act2 from "../Data/images/act2.jpg";
 import work4 from "../Data/images/work4.jpg";
 import work6 from "../Data/images/work6.jpg";
 import work7 from "../Data/images/work7.jpg";
-import work3re from "../Data/images/work3re.jpg";
+
 import { lightGreen, lightBlue } from "@material-ui/core/colors";
 import styles from './imagesStyles.js';
 
