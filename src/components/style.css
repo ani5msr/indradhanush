@@ -7,6 +7,17 @@
     margin-right: 8px;
     margin-top: 30px;
 }
+body {
+    overflow-x: hidden;
+    position: relative;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f5f6fa;
+}
+#page {
+    width: 100%;
+    background-color: #f5f6fa;
+}
 .millet{
     background-image: url("../Data/images/mft.jpg");
     background-repeat: no-repeat;

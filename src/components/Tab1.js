@@ -98,7 +98,7 @@ const Tab1 = () => {
                 <div>
                         <Paper elevation={5}><p className="tab1 "> IndraDhanusha was founded with the aim of establishing a systemic
                         value chain in the agrarian millet industry. With the judicious use of scientific techniques
-                            along with inventing a </p></Paper></div>
+                            along with inventing a market  a strong value chain in the industry, we strive to  </p></Paper></div>
                     <div>
                 <img
                     src={aboutus2}
