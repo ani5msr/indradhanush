@@ -1,7 +1,7 @@
 import React from "react";
 import "./signup.css";
 import { Link, Redirect } from "react-router-dom";
-import axios from "axios";
+
 import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
 var userData = {};
