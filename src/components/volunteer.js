@@ -161,16 +161,7 @@ export default function Volunteer() {
                       <span className="icon-right"></span> Submit{" "}
                     </button>
                   </li>
-                  <li>
-                    <p className="orAction noMargin">
-                      Already have an account?{" "}
-                      <button type="button">
-                        <Link to="/signin" style={{ color: "#0071e4" }}>
-                          Sign in
-                        </Link>
-                      </button>
-                    </p>
-                  </li>
+                  
                 </ul>
               </form>
             </div>
