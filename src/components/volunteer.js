@@ -151,26 +151,14 @@ export default function Volunteer() {
                       onChange={(e) => this.handleChange(e)}
                     ></input>
                   </li>
-                  <li>
-                    <div className="relativeRow">
-                      <input
-                        placeholder="Password"
-                        name="password"
-                        maxLength="100"
-                        minLength="8"
-                        type="password"
-                        onChange={(e) => this.handleChange(e)}
-                        id="password"
-                      ></input>
-                    </div>
-                  </li>
+                  
                   <li>
                     <button
                       type="submit"
                       className="submitButton"
                       
                     >
-                      <span className="icon-right"></span> Register{" "}
+                      <span className="icon-right"></span> Submit{" "}
                     </button>
                   </li>
                   <li>
