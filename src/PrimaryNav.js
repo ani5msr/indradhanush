@@ -65,8 +65,8 @@ const PrimaryNav = () => {
 			<Router>
 			<ButtonGroup variant="text" color="purple" aria-label="text primary button group">
 				<Button href="/volunteer" className={classes.root}>Volunteer </Button>
-				<Button className={classes.root}>Careers</Button>
-				<Button className={classes.root}>Contact us</Button>
+					<Button href="/donate" className={classes.root}>Donate</Button>
+				<Button href="/contact" className={classes.root}>Contact us</Button>
 			</ButtonGroup>
 			</Router>
 		</nav>

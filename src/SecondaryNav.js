@@ -11,6 +11,7 @@ import Tab1 from "./components/Tab1.js";
 import volunteer from "./components/volunteer.js";
 import Tab2 from "./components/Tab2.js";
 import Tab3 from "./components/Tab3.js";
+import Tab4 from "./components/Tab4.js";
 import lime from '@material-ui/core/colors/lime';
 
 function TabPanel(props) {
@@ -85,7 +86,7 @@ export default function SecondaryNav() {
                     centered 
                 >
                     <Tab label="About Us" {...a11yProps(0)} className={classes2.root}/>
-                    <Tab label="Glossary" {...a11yProps(1)} className={classes2.root}/>
+                    <Tab label="What we do" {...a11yProps(1)} className={classes2.root}/>
                     <Tab label="Know About Millets" {...a11yProps(2)} className={classes2.root} />
                     <Tab label="Our Work" {...a11yProps(3)} className={classes2.root}/>
                     <Tab label="Achievements" {...a11yProps(4)} className={classes2.root} />
@@ -96,7 +97,7 @@ export default function SecondaryNav() {
                 <Tab1 />
       </TabPanel>
             <TabPanel value={value} index={1}>
-               
+               <Tab4 />
       </TabPanel>
             <TabPanel value={value} index={2}>
                <Tab3 />
