@@ -7,6 +7,16 @@
     margin-right: 8px;
     margin-top: 30px;
 }
+.contact {
+    font-family: Calibri;
+    font-size: 34px;
+}
+.wedo {
+    font-family: Verdana;
+        color: darkslategrey;
+    text-decoration: underline;
+    font-weight: bolder;
+}
 body {
     overflow-x: hidden;
     position: relative;
@@ -50,6 +60,27 @@ body {
     font-family: 'Footlight MT';
         color: firebrick;
       
+}
+.social-container {
+    background: #eee;
+    padding: 25px 50px;
+}
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover {
+        transform: translateY(-2px);
+}
+a.youtube {
+    color: #eb3223;
+}
+a.facebook {
+    color: #4968ad;
+}
+a.twitter {
+    color: #49a1eb;
 }.work2{
     font-family: 'Footlight MT';
       
