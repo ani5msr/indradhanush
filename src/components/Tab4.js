@@ -146,5 +146,10 @@ export default function Tab2() {
                     <li style={{ fontSize: "1.5rem" }} class="wedopara"> Dr. Preeti Deshmukh, Dietician, Founder- FOOD NEST, Social Entreaprenur</li>
                     <li style={{ fontSize: "1.5rem" }} class="wedopara"> Dr. Satish, PhD- Nutrition Security , IIT Bombay</li></Paper>
             </div></div>
+       < div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
+            <div><Paper style={{ backgroundColor: color2 }} elevation={5}><h1 style={{ fontSize: "2.5rem" }} class="wedokey"> Business Resources</h1> </Paper>
+                <Paper style={{ backgroundColor: color2 }} elevation={5}><h2 style={{ fontSize: "1.5rem" }} class="wedopara"> Project Funding- UNDP, NABARD</h2>
+                    <h2 style={{ fontSize: "1.5rem" }} class="wedopara">UN Volunteers, NYKS, NSS</h2>
+                    <h2 style={{ fontSize: "1.5rem" }} class="wedopara">Corporate Employees</h2></Paper></div> </div>
     </div>)
 }
