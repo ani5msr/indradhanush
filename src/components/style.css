@@ -12,10 +12,11 @@
     font-size: 34px;
 }
 .wedo {
-    font-family: Verdana;
+    font-family:  'Baskerville Old Face';
         color: darkslategrey;
     text-decoration: underline;
     font-weight: bolder;
+    font-size: 45px;
 }
 body {
     overflow-x: hidden;
@@ -52,6 +53,12 @@ body {
     font-weight: bolder;
     
     
+}
+.wedopara {
+    font-family: Cambria;
+    color: darkslategrey;
+    font-weight: bolder;
+    font-size: 20px;
 }.milletpara{
     font-family: Cambria;
     color: darkslategrey;
