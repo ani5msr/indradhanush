@@ -46,6 +46,10 @@ body {
 .tab {
     font-family: Garamond;
 }
+.wedokey {
+    font-family: 'Calisto MT';
+    text-decoration: dashed;
+}
 .millethead{
     font-family: 'Harlow Solid';
         color: darkslategrey;
