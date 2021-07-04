@@ -167,6 +167,22 @@ export default function Tab2() {
             " " +
             classes2.imgFluid
         } src={flow} />
-
+        < div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
+            <div><img style={{ textAlign: "center" }} className={
+                classes2.imgRaised +
+                " " +
+                classes2.imgRounded +
+                " " +
+                classes2.imgFluid
+            } src={workwe} /> </div>  <div><Paper style={{ backgroundColor: color2 }} elevation={5}><h1 style={{ fontSize: "2.5rem" }} class="wedokey"> Some of our Proposed products</h1>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo" >* Ragi Based Energy Bar (50 gm)</h1></Paper>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Zinc Rich Jowar Cookies (100gm)</h1></Paper>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Multi Millet Cookies (100gm) </h1></Paper>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Multi Millet Ladoo (100 gm)</h1></Paper>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Little Millet Pulaao pre-mix (1kg) </h1></Paper>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Instant Finger Millet Idli (1kg) </h1></Paper>
+                <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Barnyard Millet Khicdi premix(1kg) </h1></Paper>
+        </Paper>
+            </div></div>
     </div>)
 }
