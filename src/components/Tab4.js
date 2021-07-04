@@ -80,6 +80,9 @@ const componentsStyle = {
         display: "inline-block",
         position: "relative",
         
+    },
+    para2: {
+        fontSize: "2.2rem",
     }
 }
 const headStyle = {
@@ -123,14 +126,14 @@ export default function Tab2() {
         <div className={classes.parabrand}>
             <h2 className={classes.para}><div className="tab">Blending the food , nutrition and awareness, with
                 an integrated value chain model of farm-thali</div></h2></div>
-        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 style={{ fontSize: "1.7rem" }} className="why" >* Integrating Foods with WCD programs, CSR projects etc. </h1></Paper>
-        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 style={{ fontSize: "1.7rem" }} className="why">* Nutritious Foods to children and Pregnant and Lactating women. </h1></Paper>
-        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 style={{ fontSize: "1.7rem" }} className="why">* Awareness creation through Anganwadi,UN Volunteers, NYKS, NSS, individuals. </h1></Paper>
-        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 style={{ fontSize: "1.7rem" }} className="why">* Periodic Monitoring and Evaluation for Learning and Replication </h1></Paper>
-        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 style={{ fontSize: "1.7rem" }} className="why">* Capacity building for Farmers, FPO's and SHG's </h1></Paper>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 20 }}>
+        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo" >* Integrating Foods with WCD programs, CSR projects etc. </h1></Paper>
+        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Nutritious Foods to children and Pregnant and Lactating women. </h1></Paper>
+        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Awareness creation through Anganwadi,UN Volunteers, NYKS, NSS, individuals. </h1></Paper>
+        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1 className="whywedo">* Periodic Monitoring and Evaluation for Learning and Replication </h1></Paper>
+        <Paper style={{ backgroundColor: color3 }} elevation={5}><h1  className="whywedo">* Capacity building for Farmers, FPO's and SHG's </h1></Paper>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
             <div>
-        <Paper style={{ backgroundColor: color2 }} elevation={5}><h1 style={{ fontSize: "2.5rem" }} class="wedokey"> Key Partners</h1> </Paper>
+        <Paper style={{ backgroundColor: color2 }} elevation={5}><h1 style={{ fontSize: "2.5rem" }} class="wedokey"> Key Partners -></h1> </Paper>
             </div>
             <div>
                 <Paper style={{ backgroundColor: color2 }} elevation={5}><li style={{ fontSize: "1.5rem" }} class="wedopara"> Farmers and FPO's</li>
