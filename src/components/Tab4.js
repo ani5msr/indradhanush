@@ -21,6 +21,7 @@ import work4 from "../Data/images/work4.jpg";
 import work6 from "../Data/images/work6.jpg";
 import work7 from "../Data/images/work7.jpg";
 import work3re from "../Data/images/work3re.jpg";
+import malnutr1 from "../Data/images/malnutr1.jpg";
 import { lightGreen, lightBlue, purple } from "@material-ui/core/colors";
 import styles from './imagesStyles.js';
 import Typography from '@material-ui/core/Typography';
@@ -112,7 +113,7 @@ export default function Tab2() {
                     classes2.imgRounded +
                     " " +
                     classes2.imgFluid
-                } src={workwe} /></div><div>
+                } src={malnutr1} /></div><div>
         <Paper style={{ backgroundColor: color2 }}>
                 <span className="wedo"> India is facing the triple burden of malnutrition </span>
         </Paper>
