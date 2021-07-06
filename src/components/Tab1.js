@@ -14,6 +14,7 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import  green from '@material-ui/core/colors/green';
+import  amber from '@material-ui/core/colors/amber';
 
 //import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -32,6 +33,8 @@ const headStyle = {
     color: "#99cff"
 
 }
+const color = amber[800];
+
 const colour = green[800];
 const cardsty = {
     color: colour
@@ -98,7 +101,8 @@ const Tab1 = () => {
                 <div>
                         <Paper elevation={5}><p className="tab1 "> IndraDhanusha was founded with the aim of establishing a systemic
                         value chain in the agrarian millet industry. With the judicious use of scientific techniques
-                            along with inventing a market  a strong value chain in the industry, we strive to  </p></Paper></div>
+                        along with inventing a market for the industry, we strive to develop
+                            a efficient model for the growth of the millet industry </p></Paper></div>
                     <div>
                 <img
                     src={aboutus2}
@@ -113,7 +117,7 @@ const Tab1 = () => {
                         /></div> </Fade></div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
 
-                <Fade bottom big>
+                
                     <div><img
                         src={aboutus}
                         alt="..."
@@ -124,8 +128,17 @@ const Tab1 = () => {
                             " " +
                             classes2.imgFluid
                         }
-                    /> </div> </Fade> </div>
-                   
+                    /> <Paper elevation={5}><p className="tab1 "> Our Goal is to provide a strong economic structure to the millet industry by empowering
+                            the farmers and rural areas which will result in strengthening their financial condition and give them a lucrative and sustainable crop in the form of millet</p></Paper></div>
+                 
+            <div>
+                    <Paper elevation={7}> <h1 >Current Gaps in Millet Industry</h1></Paper>
+                    <Paper elevation={7}> <li className="tab1para"> Inconsistent availability and suitable variety of millet grains</li></Paper>
+                    <Paper elevation={7}> <li className="tab1para"> Inadequate promotional awareness on health aspects</li></Paper>
+                    <Paper elevation={7}> <li className="tab1para"> Lack of Organized Procurement system</li></Paper>
+                    <Paper elevation={7}> <li className="tab1para"> Lack of Knowledge on processing interventions</li></Paper></div></div>    
+            <h1 style={{ textAlign: 'center' }} className="tab1head"> OUR VISION </h1>
+            <Paper style={{ backgroundColor: colour }}> <h1 className="tab1head2" > United Nations General Assembly adopted India's resolution to declare year 2023 as <span className="tab1para2" style={{ color: color }}> International Year of Millets </span> </h1> </Paper>
                 
 
                    

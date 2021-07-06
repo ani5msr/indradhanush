@@ -58,6 +58,23 @@ body {
     
     
 }
+.tab1head {
+    font-family: Stencil;
+    font-size: 39px;
+    text-decoration: underline;
+}
+.tab1head2 {
+     font-family: 'Franklin Gothic';
+     font-size: 35px;
+}
+.tab1para2 {
+    font-family: Pristina;
+}
+.tab1para {
+    font-family: 'Sitka Display';
+    font-weight: bolder;
+    font-size: 25px;
+}
 .wedopara {
     font-family: Cambria;
     color: darkslategrey;
