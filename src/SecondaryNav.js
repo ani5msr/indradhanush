@@ -89,7 +89,6 @@ export default function SecondaryNav() {
                     <Tab label="What we do" {...a11yProps(1)} className={classes2.root}/>
                     <Tab label="Know About Millets" {...a11yProps(2)} className={classes2.root} />
                     <Tab label="Our Work" {...a11yProps(3)} className={classes2.root}/>
-                    <Tab label="Achievements" {...a11yProps(4)} className={classes2.root} />
                     
                 </Tabs>
             </AppBar>
@@ -105,9 +104,7 @@ export default function SecondaryNav() {
             <TabPanel value={value} index={3}>
                 <Tab2 />
       </TabPanel>
-            <TabPanel value={value} index={4}>
-             
-      </TabPanel>
+           
             
         </div>
     );
