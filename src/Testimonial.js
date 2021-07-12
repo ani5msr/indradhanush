@@ -8,7 +8,7 @@ import Link from '@material-ui/core/Link';
 function Copyright() {
     return (
         <Typography variant="body2" color="textSecondary">
-            {'Copyright © '}
+            {'Copyright Â© '}
             <Link color="inherit" href="https://material-ui.com/">
                Millets Now
       </Link>{' '}
@@ -45,7 +45,7 @@ export default function Testimonial() {
             
             <footer className={classes.footer}>
                 <Container maxWidth="sm">
-                    <Typography variant="body1">My sticky footer can be found here.</Typography>
+                   
                     <Copyright />
                 </Container>
             </footer>
